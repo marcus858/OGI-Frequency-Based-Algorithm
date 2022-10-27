@@ -62,7 +62,7 @@
       <HintPath>..\packages\Accord.Video.FFMPEG.3.8.0\lib\net462\Accord.Video.FFMPEG.dll</HintPath>
     </Reference>
     <Reference Include="Flir.Atlas.Image">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\FLIR Systems\FLIR Atlas SDK 5\bin\$(Platform)\Flir.Atlas.Image.dll</HintPath>
+      <HintPath>..\..\..\..\Documents\FLIR Atlas SDK\Flir.Atlas.Image.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

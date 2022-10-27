@@ -51,10 +51,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Flir.Atlas.Image">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\FLIR Systems\FLIR Atlas SDK 5\bin\$(Platform)\Flir.Atlas.Image.dll</HintPath>
+      <HintPath>..\..\..\..\Documents\FLIR Atlas SDK\Flir.Atlas.Image.dll</HintPath>
     </Reference>
     <Reference Include="Flir.Atlas.Live">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\FLIR Systems\FLIR Atlas SDK 5\bin\$(Platform)\Flir.Atlas.Live.dll</HintPath>
+      <HintPath>..\..\..\..\Documents\FLIR Atlas SDK\Flir.Atlas.Live.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -132,7 +132,8 @@
     </PreBuildEvent>
   </PropertyGroup>
   <PropertyGroup>
-    <PostBuildEvent>"$(SolutionDir)FLIR.Atlas.$(Platform).bat" "$(TargetDir)"</PostBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
   </PropertyGroup>
   <Import Project="..\packages\Accord.3.8.0\build\Accord.targets" Condition="Exists('..\packages\Accord.3.8.0\build\Accord.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
